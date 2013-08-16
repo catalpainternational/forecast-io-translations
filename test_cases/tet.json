@@ -17,7 +17,7 @@
   "Udan":
     ["title", "medium-precipitation"],
 
-  "Udan Bo'ot":
+  "Udan boot":
     ["title", "heavy-precipitation"],
 
   "Karik Udan Uituan Deit":
@@ -35,7 +35,7 @@
   "Udan":
     ["title", "medium-rain"],
 
-  "Udan Bo'ot":
+  "Udan boot":
     ["title", "heavy-rain"],
 
   "Karik Udan - Salju Kahur Uituan Deit":
@@ -53,7 +53,7 @@
   "Udan - Salju Kahur":
     ["title", "medium-sleet"],
 
-  "Udan - Salju Kahur Bo'ot":
+  "Udan - Salju Kahur boot":
     ["title", "heavy-sleet"],
 
   "Karik Salju Uituan Deit":
@@ -71,13 +71,13 @@
   "Salju":
     ["title", "medium-snow"],
 
-  "Salju Bo'ot":
+  "Salju boot":
     ["title", "heavy-snow"],
 
   "Anin":
     ["title", "medium-wind"],
 
-  "Anin Bo'ot":
+  "Anin boot":
     ["title", "heavy-wind"],
 
   "Abu-Abu Taka Rai":
@@ -106,7 +106,7 @@
   "Udan uituan para iha 15 min.":
     ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
 
-  "Udan - salju kahur bo'ot hahu iha 20 min., hein 30 min. para.":
+  "Udan - salju kahur boot hahu iha 20 min., hein 30 min. para.":
     ["sentence",
       ["starting-then-stopping-later",
         "heavy-sleet",
@@ -127,10 +127,10 @@
   "Udan - salju kahur uituan deit hahu iha dader.":
     ["sentence", ["starting", "very-light-sleet", "morning"]],
 
-  "Anin to ohin kalan bo'ot.":
+  "Anin to ohin kalan boot.":
     ["sentence", ["until", "medium-wind", "today-night"]],
 
-  "Udan bo'ot to lokraik.":
+  "Udan boot to lokraik.":
     ["sentence", ["until", "heavy-precipitation", "afternoon"]],
 
   "Anin ki'ik lokraik.":
@@ -141,13 +141,13 @@
       "medium-snow",
       ["and", "later-today-evening", "tomorrow-morning"]]],
 
-  "Udan bo'ot to orsida ohin dader, hahu fali ohin kalan.":
+  "Udan boot to orsida ohin dader, hahu fali ohin kalan.":
     ["sentence", ["until-starting-again",
       "heavy-rain",
       "later-today-morning",
       "today-evening"]],
 
-  "Abu-abu taka loron hahu iha kalan, kontinua to kalan bo'ot.":
+  "Abu-abu taka loron hahu iha kalan, kontinua to kalan boot.":
     ["sentence", ["starting-continuing-until",
       "heavy-clouds",
       "evening",
@@ -158,7 +158,7 @@
       ["during", "light-sleet", "later-today-afternoon"],
       ["during", "fog", "tomorrow-morning"]]],
 
-  "Anin bo'ot hahu ohin dader, kontinua to ohin lokraik, ho udan - salju kahur aban dader.":
+  "Anin boot hahu ohin dader, kontinua to ohin lokraik, ho udan - salju kahur aban dader.":
     ["sentence", ["and",
       ["starting-continuing-until",
         "heavy-wind",
@@ -166,12 +166,12 @@
         "today-afternoon"],
       ["during", "medium-sleet", "tomorrow-morning"]]],
 
-  "Abu-abu taka loron hahu orsida kalan bo'ot ho salju bo'ot aban lokraik.":
+  "Abu-abu taka loron hahu orsida kalan boot ho salju boot aban lokraik.":
     ["sentence", ["and",
       ["starting", "heavy-clouds", "later-today-night"],
       ["during", "heavy-snow", "tomorrow-afternoon"]]],
 
-  "Maran ohin kalan bo'ot ho udan uituan hahu aban kalan, kontinua to aban kalan bo'ot.":
+  "Maran ohin kalan boot ho udan uituan hahu aban kalan, kontinua to aban kalan boot.":
     ["sentence", ["and",
       ["during", "low-humidity", "today-night"],
       ["starting-continuing-until",
@@ -179,7 +179,7 @@
         "tomorrow-evening",
         "tomorrow-night"]]],
 
-  "Salju (5 in.) iha kalan bo'ot.":
+  "Salju (5 in.) iha kalan boot.":
     ["sentence", ["during",
       ["parenthetical", "medium-snow", ["inches", 5]],
       "night"]],
@@ -189,7 +189,7 @@
       ["parenthetical", "light-snow", ["centimeters", 2]],
       "later-today-morning"]],
 
-  "Salju bo'ot (8\u201312 in.) loron tomak.":
+  "Salju boot (8\u201312 in.) loron tomak.":
     ["sentence", ["for-day",
       ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
 
