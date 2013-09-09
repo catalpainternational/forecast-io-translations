@@ -17,7 +17,7 @@
   "Udan":
     ["title", "medium-precipitation"],
 
-  "Udan boot":
+  "Udan Boot":
     ["title", "heavy-precipitation"],
 
   "Karik Udan Uituan Deit":
@@ -35,7 +35,7 @@
   "Udan":
     ["title", "medium-rain"],
 
-  "Udan boot":
+  "Udan Boot":
     ["title", "heavy-rain"],
 
   "Karik Udan - Salju Kahur Uituan Deit":
@@ -53,7 +53,7 @@
   "Udan - Salju Kahur":
     ["title", "medium-sleet"],
 
-  "Udan - Salju Kahur boot":
+  "Udan - Salju Kahur Boot":
     ["title", "heavy-sleet"],
 
   "Karik Salju Uituan Deit":
@@ -71,13 +71,13 @@
   "Salju":
     ["title", "medium-snow"],
 
-  "Salju boot":
+  "Salju Boot":
     ["title", "heavy-snow"],
 
   "Anin":
     ["title", "medium-wind"],
 
-  "Anin boot":
+  "Anin Boot":
     ["title", "heavy-wind"],
 
   "Abu-Abu Taka Rai":
