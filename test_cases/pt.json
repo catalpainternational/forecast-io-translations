@@ -1,0 +1,236 @@
+{
+  "Céu Limpo":
+    ["title", "clear"],
+
+  "Possível Precipitação Fraca":
+    ["title", "possible-very-light-precipitation"],
+
+  "Precipitação Fraca":
+    ["title", "very-light-precipitation"],
+
+  "Possível Precipitação Fraca":
+    ["title", "possible-light-precipitation"],
+
+  "Precipitação Fraca":
+    ["title", "light-precipitation"],
+
+  "Precipitação":
+    ["title", "medium-precipitation"],
+
+  "Precipitação Forte":
+    ["title", "heavy-precipitation"],
+
+  "Possível Chuvisco":
+    ["title", "possible-very-light-rain"],
+
+  "Chuvisco":
+    ["title", "very-light-rain"],
+
+  "Possíveis Chuva Fraca":
+    ["title", "possible-light-rain"],
+
+  "Chuva Fraca":
+    ["title", "light-rain"],
+
+  "Chuva":
+    ["title", "medium-rain"],
+
+  "Chuva Forte":
+    ["title", "heavy-rain"],
+
+  "Possível Granizo Fraco":
+    ["title", "possible-very-light-sleet"],
+
+  "Possível Granizo Fraco":
+    ["title", "very-light-sleet"],
+
+  "Possível Granizo Fraco":
+    ["title", "possible-light-sleet"],
+
+  "Granizo Fraco":
+    ["title", "light-sleet"],
+
+  "Granizo":
+    ["title", "medium-sleet"],
+
+  "Granizo Forte":
+    ["title", "heavy-sleet"],
+
+  "Possíveis Flocos de Neve":
+    ["title", "possible-very-light-snow"],
+
+  "Flocos de Neve":
+    ["title", "very-light-snow"],
+
+  "Possível Neve Fraca":
+    ["title", "possible-light-snow"],
+
+  "Neve Fraca":
+    ["title", "light-snow"],
+
+  "Neve":
+    ["title", "medium-snow"],
+
+  "Nevão":
+    ["title", "heavy-snow"],
+
+  "Ventos Médios":
+    ["title", "medium-wind"],
+
+  "Ventos Fortes":
+    ["title", "heavy-wind"],
+
+  "Nevoeiro":
+    ["title", "fog"],
+
+  "Nublado":
+    ["title", "medium-clouds"],
+
+  "Coberto":
+    ["title", "heavy-clouds"],
+
+  "Pouco Húmido e Ventos Fracos":
+    ["title", ["and", "low-humidity", "light-wind"]],
+
+  "Húmido e Parcialmente Nublado":
+    ["title",
+      ["and", "high-humidity", "light-clouds"]],
+
+  "Céu limpo durante a próxima hora.":
+    ["sentence", ["for-hour", "clear"]],
+
+  "Flocos de neve começando dentro de 35 min.":
+    ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+
+  "Chuva fraca acabando dentro de 15 min.":
+    ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+
+  "Granizo forte começando dentro de 20 min., e acabando 30 min. depois.":
+    ["sentence",
+      ["starting-then-stopping-later",
+        "heavy-sleet",
+        ["minutes", 20],
+        ["minutes", 30]]],
+
+  "Chuva acabando dentro de 25 min., e reiniciando 8 min. depois.":
+    ["sentence",
+      ["stopping-then-starting-later",
+        "medium-rain",
+        ["minutes", 25],
+        ["minutes", 8]]],
+
+  "Nublado durante o dia.":
+    ["sentence", ["for-day", "medium-clouds"]],
+
+  "Granizo fraco começando de manhã.":
+    ["sentence", ["starting", "very-light-sleet", "morning"]],
+
+  "Ventos médios até a noite.":
+    ["sentence", ["until", "medium-wind", "today-night"]],
+
+  "Precipitação forte até a tarde.":
+    ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+
+  "Ventos fracos durante a tarde.":
+    ["sentence", ["during", "light-wind", "afternoon"]],
+
+  "Neve durante o final do dia e amanhã de manhã.":
+    ["sentence", ["during",
+      "medium-snow",
+      ["and", "later-today-evening", "tomorrow-morning"]]],
+
+  "Chuva forte até o final da manhã, reiniciando o final do dia.":
+    ["sentence", ["until-starting-again",
+      "heavy-rain",
+      "later-today-morning",
+      "today-evening"]],
+
+  "Coberto começando ao final do dia, continuando até a noite.":
+    ["sentence", ["starting-continuing-until",
+      "heavy-clouds",
+      "evening",
+      "night"]],
+
+  "Granizo fraco durante o final da tarde e nevoeiro durante amanhã de manhã.":
+    ["sentence", ["and",
+      ["during", "light-sleet", "later-today-afternoon"],
+      ["during", "fog", "tomorrow-morning"]]],
+
+  "Ventos fortes começando esta manhã, continuando até esta tarde, e granizo durante amanhã de manhã.":
+    ["sentence", ["and",
+      ["starting-continuing-until",
+        "heavy-wind",
+        "today-morning",
+        "today-afternoon"],
+      ["during", "medium-sleet", "tomorrow-morning"]]],
+
+  "Coberto começando o final da noite e nevão durante amanhã à tarde.":
+    ["sentence", ["and",
+      ["starting", "heavy-clouds", "later-today-night"],
+      ["during", "heavy-snow", "tomorrow-afternoon"]]],
+
+  "Pouco húmido durante a noite e precipitação fraca começando amanhã ao final do dia, continuando até amanhã à noite.":
+    ["sentence", ["and",
+      ["during", "low-humidity", "today-night"],
+      ["starting-continuing-until",
+        "light-precipitation",
+        "tomorrow-evening",
+        "tomorrow-night"]]],
+
+  "Neve (5 in.) durante a noite.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["inches", 5]],
+      "night"]],
+
+  "Neve fraca (2 cm.) durante o final da manhã.":
+    ["sentence", ["during",
+      ["parenthetical", "light-snow", ["centimeters", 2]],
+      "later-today-morning"]],
+
+  "Nevão (8\u201312 in.) durante o dia.":
+    ["sentence", ["for-day",
+      ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+
+  "Neve (menos de 1 cm.) durante a tarde.":
+    ["sentence", ["during",
+      ["parenthetical", "medium-snow", ["centimeters", ["less-than", 1]]],
+      "afternoon"]],
+
+
+  "Sem precipitação durante a semana, com temperaturas máximas de 85\u00B0F amanhã.":
+    ["sentence", ["with",
+      ["for-week", "no-precipitation"],
+      ["temperatures-peaking",
+        ["fahrenheit", 85],
+        "tomorrow"]]],
+
+  "Precipitação mista durante o fim-de-semana, com temperaturas subindo até 32\u00B0C Quinta-Feira.":
+    ["sentence", ["with",
+      ["over-weekend", "mixed-precipitation"],
+      ["temperatures-rising",
+        ["celsius", 32],
+        "thursday"]]],
+
+  "Chuvisco durante o dia, com temperaturas mínimas de 15\u00B0F Sexta-Feira.":
+    ["sentence", ["with",
+      ["during", "very-light-rain", "today"],
+      ["temperatures-valleying",
+        ["fahrenheit", 15],
+        "friday"]]],
+
+  "Neve fraca durante Segunda-Feira e Terça-Feira, com uma baixa na temperatura para 0\u00B0C Domingo.":
+    ["sentence", ["with",
+      ["during", "light-snow", ["and", "monday", "tuesday"]],
+      ["temperatures-falling",
+        ["celsius", 0],
+        "sunday"]]],
+
+  "Precipitação durante Quarta-Feira até Sábado, com temperaturas máximas de 100\u00B0F Segunda-Feira.":
+    ["sentence", ["with",
+      ["during",
+        "medium-precipitation",
+        ["through", "wednesday", "saturday"]],
+      ["temperatures-peaking",
+        ["fahrenheit", 100],
+        "monday"]]]
+}
